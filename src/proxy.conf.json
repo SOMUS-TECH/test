@@ -1,0 +1,9 @@
+{
+    "/v2": {
+      "target": "https://femi.mobihealthinternational.co.uk",
+      "secure": false,
+      "changeOrigin": true,
+      "logLevel": "debug"
+    }
+}
+  
