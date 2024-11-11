@@ -18,15 +18,17 @@ export class AppComponent {
   }
 
   loginUser(): void {
-    const email = 'patient1@mobihealth.healthcare';
-    const password = 'Ogogogo1$';
+    const email = 'ozodikelvin@gmail.com';
+    const password = 'test321';
 
     this.authService.login(email, password).subscribe(
       (response) => {
         console.log('Login successful:', response);
+        alert("success");
       },
       (error) => {
         console.error('Login failed:', error);
+        alert("failed");
       }
     );
   }
